@@ -1,0 +1,18 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mail.js",
+  "scripts": {
+    "start": "node mail.js",
+    "build": "pkg mail.js"
+  },
+  "author": "Muhammad Noman",
+  "license": "ISC",
+  "dependencies": {
+    "gmail-send": "^1.2.11",
+    "nodemailer": "^4.4.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {}
+}
